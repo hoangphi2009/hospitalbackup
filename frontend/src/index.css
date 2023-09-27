@@ -5,23 +5,30 @@
 
 @layer base{
   section{
-    @apply py-[75px]
+    @apply py-[75px];
   }
 }
 
 
 @layer components {
   .container{
-    @apply max-w-full w-[1440px] px-5 mx-auto
+    @apply max-w-full w-[1440px] px-5 mx-auto;
   }
   .btn{
-    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px]
+    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
   }
   .heading{
-    @apply text-[44px] leading-[54px] font-[700] text-headingColor
+    @apply text-[44px] leading-[54px] font-[700] text-headingColor;
   }
-  .text_para{
-    @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px]
+  .text__para{
+    @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
+  }
+  .header{
+    @apply bg-[url('./assets/image/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+  }
+
+  .hero__section{
+    @apply bg-[url('./assets/image/hero-bg.png')] bg-no-repeat bg-center bg-cover;
   }
 }
 
@@ -36,10 +43,10 @@
 
 @media only screen and (max-width: 768px){
   .heading{
-    @apply text-[26px] leading-[36px]
+    @apply text-[26px] leading-[36px];
   }
 
-  .text_para{
+  .text__para{
     @apply text-[16px] leading-7 mt-3;
   }
 }
