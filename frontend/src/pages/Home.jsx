@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 import featureImg from '../assets/image/feature-img.png';
 import heroImg01 from '../assets/image/hero-img01.png';
@@ -31,7 +31,7 @@ const Home = () => {
               We help patients live a healthy, longer life.
               </h1>
               <p className='text__para'>
-              The customer will be able to sit down and follow the customer's instructions. 
+              The customer will be able to sit down and follow the customers instructions. 
               The born seeks when he flees, to see when no one will open, or because of their love of architecture, the manner of hatred. 
               Where do we lead the loose?</p>
                 <button className='btn'>

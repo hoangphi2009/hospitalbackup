@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ServiceCard from './ServiceCard';
 import {services} from './../../assets/data/services';
 const ServiceList = () => {
